@@ -8,9 +8,7 @@ import os
 
 # Create MCP server instance
 mcp = FastMCP(
-    name="WeatherForecastServer",
-    description="Provides global weather forecasts and current weather conditions",
-    version="1.2.0"
+    name="WeatherForecastServer"
 )
 
 # Define data models
